@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+**********************************************************************************************************
+    Copyright (c) 2016 Media City.
+**********************************************************************************************************  -->
+<!-- 
+Template Name: Printogram — HTML Template
+Version: 1.0.0
+Author: Media City
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]> -->
+<html lang="en">
+<!-- <![endif]-->
+<!-- head -->
+
+<head>
+<title>Sunrise Media ..One Stop Banding Solution </title>
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="One Stop Branding Solution for Pan India projects by Sunrise Media Pune" />
+<meta name="keywords" content="Large Format Printing, Hp latex priting pune, Latex print,Eco solvent Printing, Acp boards,Led Boards, Banding, Coustomized wallpaper, print wallpaper,Printing Services, Printing,Branding,wallpapers,Rasin art,3d flooring,Glow sign boards,Traslit frames, Fabric printing,fabric frames,Clip on frames,Sunbaord,Formsheet, 3d letters, Vinyl cut, Plotting, Laser cut, Routering,3d priting, Inshop brnading,Mall Branding">
+<meta name="author" content="sunrise-media" />
+<meta name="MobileOptimized" content="320" />
+<link rel="icon" type="image/icon" href="images/favicon/favicon.ico"> <!-- favicon-icon -->
+<!-- theme style -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/> <!-- bootstrap css -->
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/> <!-- fontawesome css -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet"> <!-- google fonts -->
+<link rel="stylesheet" href="css/owl.carousel.css"> <!-- owl carousel css -->
+<link href="css/style.css" rel="stylesheet" type="text/css"/> <!-- custom css -->
+<!-- end theme style -->
+</head>
+<!-- end head -->
+<!--body start-->
+<body id="home" data-spy="scroll" data-target=".navbar-default">
+<!--  404 page -->
+  <div id="comming-page" class="error-main-block">
+    <div class="error-img">
+      <img src="images/page-round.png" class="img-responsive" alt="error-img">
+    </div>
+    <div class="comming-dtl text-center">
+      <h1 class="comming-heading">Comming<br/>Soon</h1>
+      <div class="text-center comming-block">
+        <div class="countdown"><div class="comming-countdown" data-countdown="2019/12/12"></div></div>
+      </div>
+    </div>
+  </div>
+<!--  end 404 page -->
+<!--  footer -->
+  <div id="footer-error" class="footer-error-block text-center">
+    <div class="footer-home-btn">
+      <a href="index.html"><img src="images/icons/home-btn.png" class="img-responsive" alt="home-btn"></a>
+    </div>
+    <p>&copy; Sunrise Media.All Rights Reserved</p>
+  </div>
+<!--  end footer -->
+<!-- jquery -->
+<script type="text/javascript" src="js/jquery.min.js"></script> <!-- jquery library js -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- bootstrap js -->
+<script type="text/javascript" src="js/jquery.countdown.js"></script>  <!-- event countdown js -->
+<script type="text/javascript" src="js/jquery.ajaxchimp.js"></script> <!-- mail chimp js -->
+<script>
+ // Comming Soon Page Event
+  if($('.comming-countdown').length){  
+    $('.comming-countdown').each(function() {
+    var $this = $(this), finalDate = $(this).data('countdown');
+    $this.countdown(finalDate, function(event) {
+      var $this = $(this).html(event.strftime('' + '<div class="counter-col-days"><span class="count-days">%D </span>days left</div> ' + '<div class="counter-col"><span class="count-number">%H</span> <span class="count-text">hours</span> </div>  ' + '<div class="counter-col"><span class="count-number">%M</span> <span class="count-text">minutes</span> </div>  ' + '<div class="counter-col"><span class="count-number">%S</span> <span class="count-text">seconds</span></div>'));
+    });
+   });
+  }
+</script>
+<!-- end jquery -->
+</body>
+</html>
