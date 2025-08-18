@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<!--
+**********************************************************************************************************
+    Copyright (c) 2016 Media City.
+**********************************************************************************************************  -->
+<!-- 
+Template Name: Printogram — HTML Template
+Version: 1.0.0
+Author: Media City
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]> -->
+<html lang="en">
+<!-- <![endif]-->
+<!-- head -->
+
+<!-- Mirrored from mediacity.co.in/printogram/version1/quote.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Nov 2018 10:01:53 GMT -->
+
+<!-- Mirrored from www.bumperstickercustom.com/quote.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Nov 2019 08:14:17 GMT -->
+<head>
+<title>Printogram — HTML Template</title>
+<meta charset="utf-8" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<meta name="description" content="Printogram" />
+<meta name="keywords" content="printogram, html template, printogram html template">
+<meta name="author" content="media-city" />
+<meta name="MobileOptimized" content="320" />
+<link rel="icon" type="image/icon" href="images/favicon/favicon.ico"> <!-- favicon-icon -->
+<!-- theme style -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/> <!-- bootstrap css -->
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/> <!-- fontawesome css -->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700" rel="stylesheet"> <!-- google fonts -->
+<link rel="stylesheet" href="css/owl.carousel.css"> <!-- owl carousel css -->
+<link href="css/style.css" rel="stylesheet" type="text/css"/> <!-- custom css -->
+<!-- end theme style -->
+</head>
+<!-- end head -->
+<!--body start-->
+<body id="home" data-spy="scroll" data-target=".navbar-default">
+<!-- preloader --> 
+  <div class="preloader">
+    <div class="status">
+      <div class="status-message">
+        <h1>Printogram</h1>
+      </div>
+    </div>
+  </div>
+<!-- end preloader --> 
+<!--  navigation -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="index-2.html"><img src="images/logo.png" alt="logo"></a>
+      </div>
+      <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <span class="sr-only">(current)</span></a>
+            <ul class="dropdown-menu multi-level">
+              <li><a href="index-2.html">Home Page 1</a></li>    
+              <li><a href="https://mediacity.co.in/printogram/version2/index.html">Home Page 2</a></li> 
+            </ul>
+          </li>         
+          <li class="dropdown active"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Page</a>
+            <ul class="dropdown-menu multi-level">
+              <li><a href="about.html">About</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="careers.html">Careers</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="active"><a href="quote.html">Get a Quote</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="findus.html">Find Us</a></li>   
+              <li role="separator" class="divider"></li>   
+              <li><a href="404.html">404 Page</a></li> 
+              <li role="separator" class="divider"></li>
+              <li><a href="403.html">403 Page</a></li> 
+              <li role="separator" class="divider"></li>
+              <li><a href="comming-soon.html">Comming Soon</a></li> 
+              <li role="separator" class="divider"></li>           
+              <li class="dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Achievements <i class="fa fa-caret-right"></i></a>
+                <ul class="dropdown-menu second-level">
+                  <li><a href="#">Mission</a></li>  
+                  <li role="separator" class="divider"></li>    
+                  <li><a href="#">Ccompany History</a></li>
+                </ul>
+              </li>                  
+            </ul>
+          </li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>          
+          <li><a href="products-category.html">Products</a></li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+            <ul class="dropdown-menu multi-level">
+              <li><a href="blog.html">Blog Page 1</a></li>
+              <li role="separator" class="divider"></li>   
+              <li><a href="blog-single.html">Blog Single</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>  
+        </ul>      
+      </div><!-- navbar-collapse -->
+    </div><!-- container -->
+  </nav>
+<!--  end navigation -->
+<!-- breadcrumb -->
+  <div class="container">      
+    <ol class="breadcrumb">
+      <li><a href="index-2.html">Home</a></li>
+      <li class="active"><a href="quote.html">Get a quote</a></li>
+    </ol>
+  </div> 
+<!-- end breadcrumb -->
+<!-- get a quote -->
+  <div id="quote" class="quote-main-block mrg-btm">
+    <div class="container">
+      <div class="section">
+        <h3 class="section-heading">Get A <span>Quote</span></h3>
+      </div>
+      <form id="get-quote-form" class="get-quote-form" method="post" action="https://mediacity.co.in/printogram/version1/get-quote.php">
+        <div class="row">        
+          <div class="quote-form">
+            <div class="col-xs-offset-1 col-md-11">
+              <h2 class="middle-heading">Branch locator</h2>
+            </div>
+            <div class="col-xs-offset-1 col-md-4">
+              <div class="form-group">
+                <input type="text" class="form-control" id="quote-name" name="quote-name" placeholder="Enter your name..." required>
+              </div>
+            </div>
+            <div class="col-xs-offset-1 col-md-offset-0 col-md-4">
+              <div class="form-group">
+                <input type="email" class="form-control" id="quote-email" name="quote-email" placeholder="youremail@email.com" required>
+              </div>
+            </div>
+            <div class="col-xs-offset-1 col-md-offset-0 col-md-3">
+              <div class="form-group">
+                <input type="text" class="form-control" id="quote-mobile" name="quote-mobile" placeholder="Enter your mobile number...">
+              </div>
+            </div>
+            <div class="col-xs-offset-1 col-md-11 quote-row">
+              <h2 class="middle-heading">Address details</h2>
+            </div>
+            <div class="col-xs-offset-1 col-md-11">
+              <div class="form-group">
+                <input type="text" class="form-control" id="quote-address" name="quote-address" placeholder="Street address" required>
+              </div>
+            </div>
+            <div class="col-xs-offset-1 col-md-4">
+              <div class="form-group">
+                <input type="text" class="form-control" id="quote-city" name="quote-city" placeholder="Enter your city..." required>
+              </div>
+            </div>
+            <div class="col-xs-offset-1 col-md-offset-0 col-md-4">
+              <div class="form-group">
+                <input type="text" class="form-control" id="quote-country" name="quote-country" placeholder="Enter your country..." required>
+              </div>
+            </div>
+            <div class="col-xs-offset-1 col-md-offset-0 col-md-3">
+              <div class="form-group">
+                <input type="text" class="form-control" id="quote-pin" name="quote-pin" placeholder="Pin code...">
+              </div>
+            </div>
+            <div class="col-xs-offset-1 col-md-11 quote-row">
+              <h2 class="middle-heading">Product details</h2>
+            </div>
+            <div class="col-xs-offset-1 col-md-4">
+              <div class="form-group">
+                <input type="text" class="form-control" id="quote-product" name="quote-product" placeholder="Product name...">
+              </div>
+            </div>
+            <div class="col-xs-offset-1 col-md-11">
+              <div class="form-group">
+                <textarea placeholder="Product detail" id="quote-dtl" name="quote-dtl" rows="4"></textarea>
+              </div>
+            </div>         
+          </div>   
+          <div class="col-xs-offset-1 col-md-11 quote-btn quote-row">
+            <button class="btn btn-default">Submit</button>  
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+<!-- end get a quote -->
+<!-- footer -->
+  <div id="footer-section" class="footer-main-block">
+    <div class="container">
+      <div class="footer-block text-center">
+        <h2 class="middle-heading">Have a <span>question ?</span></h2>
+        <a href="#" class="contact-btn" data-toggle="modal" data-target="#contactModal">Contact Us <i class="fa fa-long-arrow-right"></i></a>
+        <div class="modal fade contact-modal" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h6>Contact Us</h6>
+              </div>
+              <form id="contact-form-footer" class="contact-form-footer" method="post" action="https://mediacity.co.in/printogram/version1/contact-us-footer.php">
+                <div class="modal-body">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="footer-email" name="footer-email" placeholder="E-mail" required>
+                  </div>
+                   <div class="form-group">                 
+                    <input type="text" class="form-control" id="footer-subject" name="footer-subject" placeholder="Subject" required>
+                  </div>
+                   <div class="form-group">                
+                    <textarea  placeholder="  Message" rows="4" id="footer-message" name="footer-message" cols="68" required></textarea>
+                  </div>
+                  <button class="btn btn-default">Send</button>  
+                </div>   
+              </form>               
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container">
+      <div class="row copyright-block">
+        <div class="col-md-3 col-xs-6">
+          <div class="copyright">
+            <div class="footer-logo">
+              <img src="images/logo-footer.png" class="img-responsive" alt="logo">
+            </div>
+            <p>&copy; Printogram 2016<br/>All Rights Reserved</p>
+          </div>
+        </div>
+        <div class="col-md-6 hidden-xs hidden-sm">
+          <div class="footer-menu text-center">
+            <ul>
+              <li><a href="index-2.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <div class="footer-social">
+            <ul>             
+              <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            </ul>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- end footer -->
+<!-- jquery -->
+<script type="text/javascript" src="js/jquery.min.js"></script> <!-- jquery library js -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- bootstrap js -->
+<script type="text/javascript" src="js/waypoints.min.js"></script> <!-- facts count js -->
+<script type="text/javascript" src="js/jquery.counterup.js"></script> <!-- facts count js-->
+<script type="text/javascript" src="js/owl.carousel.js"></script> <!-- owl carousel js-->
+<script type="text/javascript" src="js/jquery.elevatezoom.js"></script> <!-- image zoom js-->
+<script type="text/javascript" src="js/jquery.ajaxchimp.js"></script> <!-- mail chimp js -->
+<script type="text/javascript" src="js/theme.js"></script> <!-- custom js -->  
+<!-- end jquery -->
+</body>
+<!--body end -->
+
+<!-- Mirrored from mediacity.co.in/printogram/version1/quote.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 09 Nov 2018 10:01:53 GMT -->
+
+<!-- Mirrored from www.bumperstickercustom.com/quote.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Nov 2019 08:14:17 GMT -->
+</html>
