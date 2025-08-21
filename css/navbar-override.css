@@ -80,13 +80,11 @@ body {
 /* Logo styling */
 .navbar-brand img,
 .logo img {
-    max-height: 22px;
+    max-height: 28px;
     width: auto;
 }
 
 .navbar-brand {
-    padding: 8px 15px !important;
+    padding: 5px 15px !important;
     height: auto !important;
 }
-  padding: 12px 20px !important;
-  line-height: 22px !important;
