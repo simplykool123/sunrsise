@@ -1,0 +1,57 @@
+/* Navigation Bar Override Styles */
+.navbar-default {
+    background-color: #f5f5f5 !important;
+    border-color: #e3e3e3 !important;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-fixed-top {
+    top: 0 !important;
+    z-index: 1030;
+}
+
+/* Ensure body has proper top margin for fixed navbar */
+body {
+    padding-top: 70px !important;
+}
+
+/* Navigation links styling */
+.navbar-default .navbar-nav > li > a {
+    color: #333 !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ff6101 !important;
+    background-color: transparent !important;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ff6101 !important;
+    background-color: rgba(255, 97, 1, 0.1) !important;
+}
+
+/* Mobile toggle button */
+.navbar-default .navbar-toggle {
+    border-color: #ddd !important;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #ddd !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333 !important;
+}
+
+/* Logo styling */
+.navbar-brand img,
+.logo img {
+    max-height: 40px;
+    width: auto;
+}
