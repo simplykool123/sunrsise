@@ -24,6 +24,42 @@
     background-color: rgba(255, 255, 255, 0.95) !important;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
+    min-height: 50px !important;
+    height: 50px !important;
+}
+
+/* Reduce navbar padding and height */
+.navbar {
+    min-height: 50px !important;
+    height: 50px !important;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Adjust navbar brand/logo size */
+.navbar-header {
+    height: 50px !important;
+    padding: 5px 0 !important;
+}
+
+/* Reduce navigation link padding */
+.navbar-nav > li > a {
+    padding: 15px 12px !important;
+    line-height: 20px !important;
+}
+
+/* Hide screen reader text (current) */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+    display: none !important;
 }
 
 /* Ensure navbar container maintains proper positioning */
@@ -88,7 +124,7 @@
 
 /* Ensure proper spacing for fixed navbar */
 body {
-    padding-top: 70px !important;
+    padding-top: 50px !important;
 }
 
 /* Fix for when navbar has top-nav-collapse class (scrolled state) */
@@ -103,6 +139,16 @@ body {
 
 /* Mobile responsive fixes */
 @media (max-width: 767px) {
+    .navbar {
+        min-height: 60px !important;
+        height: auto !important;
+    }
+    
+    .navbar-header {
+        height: 60px !important;
+        padding: 10px 0 !important;
+    }
+    
     .navbar-collapse {
         position: relative;
         z-index: 1001;
@@ -162,7 +208,7 @@ body {
 .products-main-block,
 .contact-main-block,
 .blog-main-block {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 /* Fix for any absolute positioned elements that might interfere */
