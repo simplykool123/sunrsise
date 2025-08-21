@@ -24,27 +24,27 @@
     background-color: rgba(255, 255, 255, 0.95) !important;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    min-height: 50px !important;
-    height: 50px !important;
+    min-height: 65px !important;
+    height: 65px !important;
 }
 
 /* Reduce navbar padding and height */
 .navbar {
-    min-height: 50px !important;
-    height: 50px !important;
+    min-height: 65px !important;
+    height: 65px !important;
     padding: 0 !important;
     margin-bottom: 0 !important;
 }
 
 /* Adjust navbar brand/logo size */
 .navbar-header {
-    height: 50px !important;
-    padding: 5px 0 !important;
+    height: 65px !important;
+    padding: 10px 0 !important;
 }
 
 /* Reduce navigation link padding */
 .navbar-nav > li > a {
-    padding: 15px 12px !important;
+    padding: 22px 15px !important;
     line-height: 20px !important;
 }
 
@@ -82,7 +82,7 @@
 .navbar-header .logo img {
     position: relative !important;
     z-index: 1002 !important;
-    max-height: 50px !important;
+    max-height: 45px !important;
     width: auto !important;
 }
 
@@ -112,7 +112,7 @@
 .breadcrumb {
     position: relative;
     z-index: 999 !important;
-    margin-top: 70px !important; /* Account for fixed navbar height */
+    margin-top: 75px !important; /* Account for fixed navbar height */
     background-color: transparent !important;
 }
 
@@ -124,7 +124,7 @@
 
 /* Ensure proper spacing for fixed navbar */
 body {
-    padding-top: 50px !important;
+    padding-top: 65px !important;
 }
 
 /* Fix for when navbar has top-nav-collapse class (scrolled state) */
@@ -140,13 +140,13 @@ body {
 /* Mobile responsive fixes */
 @media (max-width: 767px) {
     .navbar {
-        min-height: 60px !important;
+        min-height: 70px !important;
         height: auto !important;
     }
     
     .navbar-header {
-        height: 60px !important;
-        padding: 10px 0 !important;
+        height: 70px !important;
+        padding: 15px 0 !important;
     }
     
     .navbar-collapse {
@@ -154,7 +154,7 @@ body {
         z-index: 1001;
         background-color: rgba(255, 255, 255, 0.98);
         border-top: 1px solid #e7e7e7;
-        margin-top: 10px;
+        margin-top: 15px;
     }
     
     .navbar-nav {
@@ -162,7 +162,7 @@ body {
     }
     
     .navbar-nav > li > a {
-        padding: 15px 20px;
+        padding: 18px 20px;
     }
 }
 
