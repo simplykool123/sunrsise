@@ -1,0 +1,13 @@
+{
+  "name": "sunrise-media-website",
+  "version": "1.0.0",
+  "description": "Sunrise Media - One Stop Branding Solution",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server . -p 3000 -o",
+    "start": "npx http-server . -p 3000 -o"
+  },
+  "keywords": ["html", "css", "javascript", "website"],
+  "author": "Sunrise Media",
+  "license": "MIT"
+}
