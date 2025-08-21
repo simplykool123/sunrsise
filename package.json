@@ -4,7 +4,7 @@
   "description": "Sunrise Media - One Stop Branding Solution",
   "main": "index.html",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node server.js",
     "start": "python3 -m http.server 3000"
   },
   "keywords": ["html", "css", "javascript", "website"],
