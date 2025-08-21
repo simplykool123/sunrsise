@@ -24,48 +24,6 @@
     background-color: rgba(255, 255, 255, 0.95) !important;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    min-height: 65px !important;
-    height: 65px !important;
-}
-
-/* Reduce navbar padding and height */
-.navbar {
-    min-height: 65px !important;
-    height: 65px !important;
-    padding: 0 !important;
-    margin-bottom: 0 !important;
-}
-
-/* Adjust navbar brand/logo size */
-.navbar-header {
-    height: 65px !important;
-    padding: 10px 0 !important;
-}
-
-/* Reduce navigation link padding */
-.navbar-nav > li > a {
-    padding: 22px 15px !important;
-    line-height: 20px !important;
-}
-
-/* Hide screen reader text (current) */
-.sr-only {
-    position: absolute !important;
-    width: 1px !important;
-    height: 1px !important;
-    padding: 0 !important;
-    margin: -1px !important;
-    overflow: hidden !important;
-    clip: rect(0, 0, 0, 0) !important;
-    white-space: nowrap !important;
-    border: 0 !important;
-    display: none !important;
-}
-
-/* Ensure navbar container maintains proper positioning */
-.navbar .container {
-    position: relative;
-    z-index: 1001;
 }
 
 /* Fix logo z-index to appear above all other header elements */
@@ -82,7 +40,7 @@
 .navbar-header .logo img {
     position: relative !important;
     z-index: 1002 !important;
-    max-height: 45px !important;
+    max-height: 50px !important;
     width: auto !important;
 }
 
@@ -112,19 +70,28 @@
 .breadcrumb {
     position: relative;
     z-index: 999 !important;
-    margin-top: 75px !important; /* Account for fixed navbar height */
+    margin-top: 20px !important;
     background-color: transparent !important;
+}
+
+/* Hide screen reader text completely */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+    display: none !important;
 }
 
 /* Fix navbar toggle button for mobile */
 .navbar-toggle {
     position: relative !important;
     z-index: 1002 !important;
-}
-
-/* Ensure proper spacing for fixed navbar */
-body {
-    padding-top: 65px !important;
 }
 
 /* Fix for when navbar has top-nav-collapse class (scrolled state) */
@@ -139,16 +106,6 @@ body {
 
 /* Mobile responsive fixes */
 @media (max-width: 767px) {
-    .navbar {
-        min-height: 70px !important;
-        height: auto !important;
-    }
-    
-    .navbar-header {
-        height: 70px !important;
-        padding: 15px 0 !important;
-    }
-    
     .navbar-collapse {
         position: relative;
         z-index: 1001;
@@ -160,21 +117,9 @@ body {
     .navbar-nav {
         margin: 0;
     }
-    
-    .navbar-nav > li > a {
-        padding: 18px 20px;
-    }
 }
 
 /* Cross-browser compatibility fixes */
-/* IE 10+ */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .navbar .logo {
-        z-index: 1002 !important;
-    }
-}
-
-/* Safari specific fixes */
 @supports (-webkit-appearance: none) {
     .navbar-fixed-top {
         -webkit-transform: translateZ(0);
@@ -185,39 +130,4 @@ body {
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
     }
-}
-
-/* Firefox specific fixes */
-@-moz-document url-prefix() {
-    .navbar .logo {
-        position: relative !important;
-        z-index: 1002 !important;
-    }
-}
-
-/* Additional fixes for content overlap */
-.container .breadcrumb {
-    margin-bottom: 20px;
-}
-
-/* Ensure main content doesn't overlap with fixed header */
-#home,
-.about-main-block,
-.services-main-block,
-.portfolio-main-block,
-.products-main-block,
-.contact-main-block,
-.blog-main-block {
-    margin-top: 10px;
-}
-
-/* Fix for any absolute positioned elements that might interfere */
-.navbar * {
-    position: relative;
-}
-
-.navbar .logo,
-.navbar .logo * {
-    position: relative !important;
-    z-index: 1002 !important;
 }
