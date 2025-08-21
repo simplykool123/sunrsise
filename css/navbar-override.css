@@ -11,7 +11,7 @@
 
 .navbar-fixed-top {
     top: 0 !important;
-    z-index: 1030;
+    z-index:800;
 }
 
 /* Ensure body has proper top margin for fixed navbar */
