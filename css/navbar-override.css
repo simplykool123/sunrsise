@@ -14,7 +14,7 @@
 
 /* Ensure body has proper top margin for fixed navbar */
 body {
-    padding-top: 25px !important;
+    padding-top: 50px !important;
 }
 
 /* Navigation links styling */
