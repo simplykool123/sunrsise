@@ -22,10 +22,32 @@ body {
 /* Navigation links styling */
 .navbar-default .navbar-nav > li > a {
     color: #333 !important;
-  padding: 10px 15px !important;
+  padding: 10px 20px !important;
   line-height: 25px !important;
   display: flex !important;
   align-items: center !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* Better spacing for navigation items */
+.navbar-nav {
+  margin: 0 !important;
+}
+
+.navbar-nav > li {
+  margin: 0 2px !important;
+}
+
+/* Ensure proper alignment of navbar content */
+.navbar-right {
+  margin-right: 0 !important;
+}
+
+.container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
