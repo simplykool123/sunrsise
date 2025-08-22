@@ -1,0 +1,13 @@
+{
+  "name": "sunrise-media-website",
+  "version": "1.0.0",
+  "description": "Sunrise Media - One Stop Branding Solution",
+  "main": "index.html",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": ["html", "css", "javascript", "website"],
+  "author": "Sunrise Media",
+  "license": "MIT"
+}
